@@ -43,8 +43,9 @@ h1 {
 
 /* Boxes */
 .box {
-    height: 100px;
-    width: 100px;
+    height: min(18vmin, 110px);
+    width: min(18vmin, 110px);
+    font-size: min(8vmin, 3rem);
     border-radius: 1rem;
     border: none;
     font-size: 3rem;
